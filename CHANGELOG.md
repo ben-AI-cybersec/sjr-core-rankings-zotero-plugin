@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.3.2] - 2026-8-14
+## [0.3.2] - 2026-9-10
 - Added preprint badge and colour code to ranking column
 - Bump Zotero version supported to v 10.x
 - Merged Kristjan-O-Ragnarsson's colour fix and stray comma removal
