@@ -238,7 +238,7 @@ var RankingActions = {
 		var defaultValue = existingOverride || '';
 		
 		// Prompt for ranking using modern Services API
-		var Services = globalThis.Services || ChromeUtils.import("resource://gre/modules/Services.jsm").Services;
+		var Services = globalThis.Services || ChromeUtils.importESModule("resource://gre/modules/Services.sys.mjs").Services;
 		
 		var input = { value: defaultValue };
 		var result = Services.prompt.prompt(

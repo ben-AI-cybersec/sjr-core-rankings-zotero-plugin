@@ -23,7 +23,9 @@
  */
 
 /* global Services, Components, Hooks, Zotero */
-var { Services } = ChromeUtils.import("resource://gre/modules/Services.jsm");
+if (typeof Services === 'undefined') {
+	var { Services } = ChromeUtils.importESModule("resource://gre/modules/Services.sys.mjs");
+}
 
 /**
  * Load all plugin modules in dependency order
